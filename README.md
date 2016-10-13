@@ -5,7 +5,7 @@
 * Code to plot light curves of variable stars in the Gaia DR1 archive.
 * Also contains function to pull time series photmetetry for **flagged** variable stars in Gaia (more on this below...)
 
-### Weird thing ### 
+### Weird thing 
 * Not all variables are flagged in DR1-TGAS
 * There is only 1 flagged variable in TGAS, despite there being a large number of RRL and Cepheids in this data (I know they are there, I have checked.)
 * Are Gaia not releasing the time series data for these stars yet?
