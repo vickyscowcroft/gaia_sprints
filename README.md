@@ -4,6 +4,10 @@
 
 * Code to plot light curves of variable stars in the Gaia DR1 archive.
 * Also contains function to pull time series photmetetry for **flagged** variable stars in Gaia (more on this below...)
+* photometry data files *source_id.csv* are saved to the phot_files directory when you make them
+* variable_stars.csv and variable_stars_sourceinfo.csv are the files with the overview info about the variables.
+  - TODO - switch this up so it's not doing repeated calls to the archive for these files now they're downloaded. 
+  - Check whether a photometry file exists before calling the archive for another version.
 
 ### Weird thing 
 * Not all variables are flagged in DR1-TGAS
