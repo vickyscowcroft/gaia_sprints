@@ -8,6 +8,7 @@
 * variable_stars.csv and variable_stars_sourceinfo.csv are the files with the overview info about the variables.
   - TODO - switch this up so it's not doing repeated calls to the archive for these files now they're downloaded. 
   - Check whether a photometry file exists before calling the archive for another version.
+* Right now the notebook just plots up a random star (using a random number generator)
 
 ### Weird thing 
 * Not all variables are flagged in DR1-TGAS
