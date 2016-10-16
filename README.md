@@ -12,7 +12,8 @@
 
 ### Weird thing 
 * Not all variables are flagged in DR1-TGAS
-* There is only 1 flagged variable in TGAS, despite there being a large number of RRL and Cepheids in this data (I know they are there, I have checked.)
+* There is only 1 flagged variable in TGAS, despite there being a large number of RRL and Cepheids in this data (I know they are there, I have checked, and I have the ancilliary photometry of these stars so I know for sure they are real variables that fall on the PL...)
 * Are Gaia not releasing the time series data for these stars yet?
 * It would be really useful to have these - these are the ones that have HST FGS parallaxes, well sampled ground based data etc, but they're flagged with NOT_AVAILABLE in the phot_variable_flag (i.e. no time series)
 * I need to read the Clementini paper in more detail (and the Eyer one when it's published...)
+* Anyone have any insight?
